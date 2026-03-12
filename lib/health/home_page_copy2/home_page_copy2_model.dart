@@ -1,0 +1,22 @@
+import '/flutter_flow/flutter_flow_util.dart';
+import '/home/widget/navbar/navbar_widget.dart';
+import '/index.dart';
+import 'home_page_copy2_widget.dart' show HomePageCopy2Widget;
+import 'package:flutter/material.dart';
+
+class HomePageCopy2Model extends FlutterFlowModel<HomePageCopy2Widget> {
+  ///  State fields for stateful widgets in this page.
+
+  // Model for Navbar component.
+  late NavbarModel navbarModel;
+
+  @override
+  void initState(BuildContext context) {
+    navbarModel = createModel(context, () => NavbarModel());
+  }
+
+  @override
+  void dispose() {
+    navbarModel.dispose();
+  }
+}
